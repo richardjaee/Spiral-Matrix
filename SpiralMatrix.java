@@ -2,17 +2,8 @@
 // - Given an m x n matrix of integers (m rows, n columns)
 // - m >= 1 and n >= 1 (there is at least one element in the matrix)
 // - Input matrices are either rectangular or square in shape
-// - Returns a string “2,3,4,8,12,10,6,0,1,5,7,9” with a comma and a space after each number
 // - Clockwise traversal always starts at the index [0][0] (the top left corner)
 
-// Test Cases:
-// Square matrices: m x n, where m = n
-// Rectangular matrices: m x n, where m > n 
-// Rectangular matrices: m x n, where n > m 
-// Rectangular matrices where the rows are substantially larger than the columns: m x n, where m >> n
-// Rectangular matrices where the columns are substantially larger than the rows: m x n, where n >> m
-
-// Approximate time taken to complete question 1: 2 hours
 
 import java.lang.StringBuilder;
 import java.util.ArrayList;
